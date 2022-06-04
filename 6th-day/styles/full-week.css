@@ -1,0 +1,33 @@
+h1 {
+  font-size: 48px;
+  color: rgb(71, 62, 62);
+}
+a {
+  color: white;
+  background-color: rgb(167, 1, 78);
+  border-radius: 6px;
+  font-size: 24px;
+}
+
+ol {
+  list-style: none;
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(255, 255, 0);
+  font-size: 25px;
+}
+
+a:hover {
+  background-color: rgb(180, 12, 90);
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+li {
+  margin: 32px;
+  list-style: square;
+  list-style: none;
+  color: rgb(71, 62, 62);
+  background-color: rgb(223, 136, 124);
+  border-radius: 10px;
+}
