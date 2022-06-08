@@ -1,0 +1,38 @@
+main {
+  background-color: #db6c5e;
+  border: 5px solid rgb(44, 44, 44);
+  border-radius: 8px;
+  margin: 200px auto 72px auto;
+  width: 800px;
+  padding: 24px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
+}
+#todays-challenge {
+  color: rgb(75, 59, 59);
+  font-weight: bold;
+  font-size: 52px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+a {
+  color: rgb(73, 29, 50);
+}
+
+img {
+  border: 5px solid rgb(44, 44, 44);
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  display: block;
+  margin: -134px auto 0 auto;
+}
+
+h1 {
+  color: rgb(31, 25, 25);
+  font-size: 30px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+}
+span {
+  color: rgb(66, 2, 2);
+}
