@@ -38,13 +38,17 @@ span {
 }
 
 li {
-  list-style: square;
+  list-style: none;
   text-align: left;
+  border-left: 7px solid;
+  padding-left: 7px;
   color: rgb(251, 234, 188);
+  margin: 5px auto;
 }
 
 main ol p {
   margin: 0px;
+  padding-left: 14px;
 }
 
 .first-buttom {
