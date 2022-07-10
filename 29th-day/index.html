@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="styles.css" />
+      <title>HTML forms</title>
+    </head>
+  </head>
+  <body>
+    <header><h1>Contact Us</h1></header>
+    <main>
+      <form action="/" method="get">
+        <section>
+          <ul>
+            <h2>How can we help you?</h2>
+            <li>
+              <label for="userName">Your Name</label>
+              <input type="text" name="user-name" id="userName" required />
+            </li>
+
+            <li>
+              <label for="userEmail">Your E-Mail Adress</label>
+              <input type="email" name="user-email" id="userEmail" required />
+            </li>
+
+            <li>
+              <label for="userPhone">Your Phone Number</label>
+              <input type="tel" name="user-Phone" id="userPhone" required />
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <label for="userMessage">Your Message</label>
+          <textarea name="user-message" id="userMessage" rows="8"></textarea>
+        </section>
+
+        <section>
+          <label for="findUs">How did you find us?</label>
+          <select name="find-us" id="findUs">
+            <option value="Social-Media">Social Media</option>
+            <option value="Television">Television</option>
+            <option value="Search-Engine">Google / Search Engine</option>
+            <option value="Review">Third-Party Review</option>
+            <option value="Other">Other</option>
+          </select>
+        </section>
+
+        <section id="radioSectoin">
+          <ul>
+            <h2>How should we reply?</h2>
+            <li class="listRadio">
+              <input type="radio" name="reply" class="inputRadio" id="reply" />
+              <label for="reply" class="labelRadio">Call me</label>
+            </li>
+            <li></li>
+            <li class="listRadio">
+              <input
+                type="radio"
+                name="reply"
+                class="inputRadio"
+                id="Send-me-an-email"
+              />
+              <label for="Send-me-an-email" class="labelRadio"
+                >Send me an email</label
+              >
+            </li>
+            <li></li>
+            <li class="listRadio">
+              <input
+                type="radio"
+                name="reply"
+                class="inputRadio"
+                id="Dont-reply"
+              />
+              <label for="Dont-reply" class="labelRadio">Don't reply</label>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <input
+            type="checkbox"
+            class="inputRadio"
+            id="agreement"
+            name="terms"
+          />
+          <label for="agreement">Accept Terms</label>
+        </section>
+
+        <section>
+          <div id="button-container">
+            <button type="reset" id="resetButton">Clear</button>
+            <button id="submitButton">Submit</button>
+          </div>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
