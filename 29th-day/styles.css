@@ -85,7 +85,7 @@ select {
 }
 
 #radioSectoin {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 #button-container {
@@ -99,6 +99,7 @@ select {
   margin-right: 0.5rem;
   width: 6rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #submitButton {
@@ -108,4 +109,5 @@ select {
   font-weight: bold;
   width: 6rem;
   border-radius: 5px;
+  cursor: pointer;
 }
